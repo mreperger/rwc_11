@@ -110,7 +110,7 @@
 			while($row_PC = mysql_fetch_array($rsPC)){
 				if($row_PC["equipo_locatario"] == $this->id){
 					$total = $total + $row_PC["puntos_equipo_locatario"];
-				}elseif($row_GC["equipo_visitante"] == $this->id){
+				}elseif($row_PC["equipo_visitante"] == $this->id){
 					$total = $total + $row_PC["puntos_equipo_visitante"];
 				}
 			}
