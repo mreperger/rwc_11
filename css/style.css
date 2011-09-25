@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+body {
+	background-color: #000000;
+	background-image: url(../img/rwc2011_mainbg.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+img{
+	border:0px;
+}
+#pagina{
+	width:1024px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+#zona_cabezal{
+	width: 353px;
+	height: 51px;
+	margin-left:660px;
+	margin-top:63px;
+	float:none;
+	text-align: center;
+	color:#FFFFFF;
+}
+#zona_cabezal a{
+	color: #FFFFFF;
+	margin-left: 10px;
+}
+#zona_cabezal a:hover{
+	color:#000000;
+}
+.border_left{
+	float: left;
+}
+.border_right{
+	float: right;
+}
+h2{
+	font-size:18px;
+	text-align: center;
+}
+td{
+	font-size:14px;
+	font-weight:bold;
+}
+a:link {
+	color: #323232;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration:none;
+	color: #323232;
+}
+a:hover {
+	text-decoration: none;
+	color:#3279b7;
+}
+a:active {
+	text-decoration: none;
+	color: #323232;
+}
+#menu{
+	margin-top: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 982px;
+	height:40px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+#menu a{
+	margin-right:25px;
+	margin-left:25px;
+}
+.links{
+	width: 952px;
+	float: left;
+	height: 18px;
+	padding-top:10px;
+}
+.img_cabezal{
+	width:226px;
+	height:119px;
+	float:left;
+}
+#pie_pagina{
+	margin-left: auto;
+	margin-right: auto;
+	width: 981px;
+}
+#pie_pagina a{
+	margin-right:3px;
+}
+p{
+	width:991px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:14px;
+}
+p strong{
+	font-style:italic;
+	font-weight:normal;
+}
+em{
+	font-weight:bold;
+	color:#000000;
+}
+em strong{
+	color:#FFFFFF;
+	font-size:12px;
+	font-style:italic;
+	font-weight:normal;
+}
+#ranking a{
+	color:#FFFFFF;
+}
+#ranking a:hover{
+	color:#323232;
+}
+.letra_cursiva{
+	font-size:14px;
+	font-style:italic;
+	font-weight:normal;
+}
+.letra_cursiva a{
+	color: #FADCDC;
+}
+.letra_cursiva a:hover{
+	color: #323232;
+}
+.boton_selec{
+	color: #f3c65a;
+}
+.boton_selec:visited{
+	color: #f3c65a;
+}
+#fixture_menu{
+	width: 982px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	color: #FFFFFF;
+}
+#fixture_menu_usuario{
+	height:647px;
+}
+#grupos_menu{
+	width: 982px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	color: #FFFFFF;
+}
+.grupo{
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFFFFF;
+}
+.fixture{
+	width:482px;
+	margin-left:auto;
+	margin-right:auto;
+	color: #FFFFFF;
+}
+.fixture_finales{
+	margin-left:auto;
+	margin-right:auto;
+	width:506px;
+	padding-top:8px;
+	padding-bottom:10px;
+}
+.resultado{
+	color:#FFFFFF;
+}
+#actualizar{
+	margin-top:20px;
+	margin-left:15px;
+}
+.frm_actualizar{
+	margin-left:5px;
+}
+#log_in{
+	width:300px;
+	margin-top:18px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.menu_usuario{
+	padding-top:10px;
+}
+#sign_in{
+	width:400px;
+	margin-top:18px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.tamano_resultado{
+	width: 15px;
+	text-align:center;
+}
+.btn_resultados{
+	margin-right:auto;
+	margin-left:auto;
+	text-align: center;
+	margin-top: 5px;
+}
+.titulo_resultados{
+	text-align:center;
+	color: #323232;
+}
+.fixture_resultados{
+	width:938px;
+	margin-left: auto;
+	margin-right:auto;
+	padding-top:0px;
+	padding-left:14px;	
+}
+.cuartos{
+	width: 533px;
+	height:200px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+}
+.semis{
+	width: 702px;
+	height:97px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+}
+.tercer{
+	width: 702px;
+	height:97px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+}
+.final{
+	width: 702px;
+	height:97px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+}
+.fixture_finales_resultados{
+	float:left;
+	width:550px;
+	padding-top:0px;
+	padding-left:18px;
+}
+.err_msg{
+	border:1px solid #FF0000;
+	color:#FF0000;
+	padding:10px 10px 10px 10px;
+	font-weight:bold;
+	background-color:#FADCDC;
+}
+.puntos{
+	color:#3279B7;
+	font-size:24px;
+	margin-bottom: 0px;
+}
+.small_menu{
+	font-size:12px;
+}
+.small_res{
+	font-size:12px;
+	padding-top:53px;
+	padding-left:846px;
+}
+#mensaje{
+	border-style: solid;
+	border-color: #FF0000;
+	background-color: #FADCDC;
+	color:#000000;
+	text-align: center;
+}
