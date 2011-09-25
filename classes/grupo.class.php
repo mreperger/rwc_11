@@ -28,7 +28,7 @@
 			//Ordeno por tc (mayor a menor)
 			$this->ordenarGrupoTC();
 			//Ordeno por tr (menor a mayor)
-			$this->ordenarGrupoTR();
+			$this->ordenarGrupoPR();
 			//Ordeno por nombre (menor a mayor)
 			$this->ordenarGrupoNOMBRE();
 		}
@@ -51,7 +51,7 @@
 			}while($n > 1);
 		}
 		
-		private function ordenarGrupoTC(){
+		/*private function ordenarGrupoTC(){
 			$n = count($this->equipos);
 			do{
 				$newn = 0;
@@ -67,16 +67,16 @@
 				}
 				$n = $newn;
 			}while($n > 1);
-		}
+		}*/
 		
-		private function ordenarGrupoTR(){
+		private function ordenarGrupoPR(){
 			$n = count($this->equipos);
 			do{
 				$newn = 0;
 				for($i = 0; $i < $n-1; $i++){
 					$equipo1 = $this->equipos[$i];
 					$equipo2 = $this->equipos[$i+1];
-					if($equipo1->getPTS() == $equipo2->getPTS() && $equipo1->getTC() == $equipo2->getTC() && $equipo1->getTR() > $equipo2->getTR()){
+					if($equipo1->getPTS() == $equipo2->getPTS() && $equipo1->getPR() > $equipo2->getPR()){
 						//CAMBIO POS
 						$this->equipos[$i] = $equipo2;
 						$this->equipos[$i + 1] = $equipo1;
