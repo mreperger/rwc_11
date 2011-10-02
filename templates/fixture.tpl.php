@@ -87,7 +87,6 @@
         </table>
         </div>
         
-	<?php if(!isset($_GET["res"])){ ?>
         <div class="fixture_finales">
             <h2>Cuartos de Finales</h2>
             
@@ -336,7 +335,7 @@
             </tr>
             <?php } ?>
         </table>
-        <?php } ?>
+        
         <?php if(isset($_GET["res"]) && $_GET["res"]>0){?><h2 class="puntos">Puntos: <?php echo PuntosUsuario:: CalcularPuntos($_GET["res"], $conn); ?></h2><?php } ?>        	
         </div>
 	</div>
